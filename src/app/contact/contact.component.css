@@ -1,0 +1,52 @@
+.contact{
+    background-image:linear-gradient(rgb(107, 107, 247),rgb(127, 204, 127)) ;
+}
+.contact .info i {
+    font-size: 20px;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background-image:linear-gradient(rgb(127, 204, 127),rgb(107, 107, 247)) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+     font-family: "Poppins", sans-serif; 
+  }
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #141413;
+  }
+  .contact .info .open-hours, .contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+  }
+  .contact .contact-email-form .form-group {
+    padding-bottom: 8px;
+  }
+  .contact .contact-email-form input, .contact .contact-email-form textarea{
+    border-radius: 0;
+    font-size: 14px;
+    border: none;
+    color: rgb(14, 14, 14);
+  }
+  .contact .contact-email-form button[type=submit] {
+    background:black;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  .contact .contact-email-form button[type=submit]:hover {
+    background-image:linear-gradient(rgb(127, 204, 127),rgb(107, 107, 247)) ;
+
+  }
